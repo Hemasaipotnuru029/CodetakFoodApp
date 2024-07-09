@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .card {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-left: 1px solid #ddd;
+        }
+
+        .card-body {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            margin-bottom: 20px;
+        }
+
+        .card-footer {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="py-3">
+        <div class="d-flex">
+            <div class="logo-container">
+                <img src="food.png" alt="Codetek Logo" class="logo">
+                <h2 class="m-0 mx-1 title-name"><i>FOOD_APP</i></h2>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item h4"><a class="nav-link" href="index.html"><b>Home</b></a></li>
+                            <li class="nav-item h4"><a class="nav-link" href="about.html"><b>About</b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle h4" href="#" id="navbarDropdownPolicies" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b>Food Category</b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownPolicies">
+                                    <div class="d-flex">
+                                        <a class="dropdown-item" href="veg.html"><img class="dropdown-icon-img" src="vegthali.jpg"/></a>
+                                        <a class="dropdown-item" href="nonveg.html"><img class="dropdown-icon-img" src="non_veg_thali.avif"/></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item h4"><a class="nav-link" href="ccontact.html"><b class="text-nowrap">Contact Us</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container my-4">
+        <h2>Biryanis</h2>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Mushroom Biryani</h4>
+                <p><b></b> <b>₹399</b></p>
+                <p class="card-text"><b>Description :</b>Mushroom biryani, a fragrant fusion,Tender mushrooms infused with aromatic spices,Layered with fluffy basmati rice,A vegetarian delight that tantalizes the senses.</p>
+            </div>
+            <div class="sarter-item">
+            <img src="mushroombiryani.jpg" alt="starter">
+            <div class="card-footer">
+                
+                <!-- class="btn btn-primary" Learn More  -->
+            </div>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Veg Biryani</h4>
+                <p><b></b> <b>₹499</b></p>
+
+                <p class="card-text"><b>Description :</b>Veg biryani, a symphony of flavors,Fragrant basmati rice with assorted vegetables,Infused with aromatic spices and saffron strands, A culinary masterpiece that delights vegetarians and omnivores alike.</p>
+            </div>
+            <div class="sarter-item">
+            <img src="vegbiryani.jpg" alt="starter">
+            <div class="card-footer">
+                
+                <!-- class="btn btn-primary" Learn More  -->
+            </div>
+            </div>
+        </div>
+        <br>
+        
+        <!-- <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Mushroom Soup</h3>
+                <p class="card-text">Creamy and flavorful mushroom soup for mushroom lovers.</p>
+            </div>
+            <img src="path/to/mushroom_soup.jpg" alt="Mushroom Soup">
+            <div class="card-footer">
+                <a href="mushroom_soup.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div> -->
+        
+        
+    </div>
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>Thank you, visit us again</span>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        
+      
+          <div class="container d-flex justify-content-between align-items-center">
+            <p class="text-light mb-0">© 2023 Codetek. All rights reserved.</p>
+            <div className="">
+                <h2 className="text-uppercase fw-bold fs-4">Address</h2>
+                <hr className="mb-2 mt-0 d-inline-block mx-auto company-hr" />
+                <p>
+                  Hitechcity, Hyderabad
+                  <br />
+                  Telangana
+                  <br />
+                </p>
+              </div>
+            <div class="insta-handle">
+                <a href="https://www.instagram.com/yourhandle" target="_blank" class="text-light">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sai-teja-raju-ratnakaram-538244206" target="_blank" class="text-light">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <footer class="text-center py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <p class="text-light mb-0">© 2023 Codetek. All rights reserved.</p>
+            <div class="insta-handle">
+                <a href="https://www.instagram.com/yourhandle" target="_blank" class="text-light">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sai-teja-raju-ratnakaram-538244206" target="_blank" class="text-light">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

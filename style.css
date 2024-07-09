@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: hsl(310, 85%, 59%);
+    box-shadow: 0 0 10px rgba(245, 19, 19, 0.1);
+}
+.title-name {
+    color: #030e01;
+}
+.navbar {
+    margin-left: 55%;
+}
+
+.menu {
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:lightgreen;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.dropdown-icon-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    /* background-color: transparent;
+    border: none; */
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+footer {
+    position: relative;
+    background-color: hsl(310, 85%, 59%);
+    color: #fff;
+    /* height: 50vh; */
+}
+
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insta-handle a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.insta-handle a:hover {
+    color: #17d754;
+}
+
+.content {
+    flex: 1;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.marquee-container {
+    background-color: rgb(230, 230, 149);
+    padding: 10px 0;
+    color: rgb(213, 14, 14);
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite reverse;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(800%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.veg-item {
+    display:flex;
+    align-items:flex-end;
+    margin-bottom: 20px;
+}
+
+
+.veg-item img {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.veg-item a {
+    text-decoration: none;
+    color: #0e94b3;
+    font-size: 1.25rem;
+}
+
+
+/* .veg-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.veg-item img {
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+}
+
+.veg-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+} */
+.soup-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+
+
+.soup-item img{
+    width: 2000px;
+    height: 700px;
+    object-fit: cover;
+    
+    
+}
+.pumpkin-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+.pumpkin-item img{
+    width: 1800px;
+    height: 700px;
+
+    
+
+}
+.homepage {
+    background-image: url('');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed position as the user scrolls */
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: fixed; /* Ensure the background covers the entire viewport height */
+    overflow: hidden; /* Hide overflow content that extends beyond viewport */
+}
